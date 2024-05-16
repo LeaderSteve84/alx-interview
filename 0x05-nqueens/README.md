@@ -1,7 +1,6 @@
-0x05. N Queens
-Algorithm
-Python
- Weight: 1
+# 0x05. N Queens
+### Algorithm Python Weight: 1
+
  Project will start May 13, 2024 6:00 AM, must end by May 17, 2024 6:00 AM
  Checker was released at May 14, 2024 6:00 AM
  An auto review will be launched at the deadline
@@ -69,8 +68,7 @@ Format: see example
 You don’t have to print the solutions in a specific order
 You are only allowed to import the sys module
 
-Read:
-<a href="https://en.wikipedia.org/wiki/Queen_%28chess%29">Queen</a>, <a href="https://en.wikipedia.org/wiki/Backtracking">Backtracking</a>
+Read:<a href="https://en.wikipedia.org/wiki/Queen_%28chess%29">Queen</a>, <a href="https://en.wikipedia.org/wiki/Backtracking">Backtracking</a>
 
 julien@ubuntu:~/0x08. N Queens$ ./0-nqueens.py 4
 [[0, 1], [1, 3], [2, 0], [3, 2]]
@@ -81,8 +79,10 @@ julien@ubuntu:~/0x08. N Queens$ ./0-nqueens.py 6
 [[0, 3], [1, 0], [2, 4], [3, 1], [4, 5], [5, 2]]
 [[0, 4], [1, 2], [2, 0], [3, 5], [4, 3], [5, 1]]
 julien@ubuntu:~/0x08. N Queens$ 
-Repo:
 
-GitHub repository: alx-interview
-Directory: 0x05-nqueens
-File: 0-nqueens.py
+#### Repo:
+<ul>
+ <li>GitHub repository: alx-interview</li>
+ <li>Directory: 0x05-nqueens</li>
+ <li>File: 0-nqueens.py</li>
+</ul>
