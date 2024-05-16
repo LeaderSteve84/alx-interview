@@ -8,27 +8,38 @@ Python
 The “0x05. N queens” project is a classic problem in computer science and mathematics, known for its application of the backtracking algorithm to place N non-attacking queens on an N×N chessboard. To successfully complete this project, you will need to understand several key concepts and have access to resources that will help you grasp the necessary algorithms and techniques.
 
 ## Concepts Needed:
-### Backtracking Algorithms:
-
-Understanding how backtracking algorithms work to explore all potential solutions to a problem and backtrack when a solution cannot be completed.
-<l><a href="https://www.geeksforgeeks.org/introduction-to-backtracking-data-structure-and-algorithm-tutorials/">Backtracking Introduction</a></l>
-Recursion:
-
-Using recursive functions to implement backtracking algorithms.
-Recursion in Python
-List Manipulations in Python
-Creating and manipulating lists, especially to store the positions of queens on the board.
-Python Lists
-Python Command Line Arguments:
-
-Handling command-line arguments with the sys module.
-Command Line Arguments in Python
+<ol>
+ <li>Backtracking Algorithms:</li>
+  <ul>
+   <li>Understanding how backtracking algorithms work to explore all potential solutions to a problem and backtrack when a solution cannot be completed.</li>
+   <li><a href="https://www.geeksforgeeks.org/introduction-to-backtracking-data-structure-and-algorithm-tutorials/">Backtracking Introduction</a></li>
+  </ul>
+ <li>Recursion:</li>
+  <ul>
+   <li>Using recursive functions to implement backtracking algorithms.</li>
+   <li><a href="https://realpython.com/python-thinking-recursively/">Recursion in Python</a></li>
+  </ul>
+ <li>List Manipulations in Python</li>
+  <ul>
+   <li>Creating and manipulating lists, especially to store the positions of queens on the board.</li>
+   <li><a href="https://docs.python.org/3/tutorial/datastructures.html">Python Lists</a></li>
+  </ul>
+ </li>
+ <li>Python Command Line Arguments:</li>
+ <ul>
+  <li>Handling command-line arguments with the sys module.</li>
+  <li><a href="https://docs.python.org/3.3/library/sys.html#sys.argv">Command Line Arguments in Python</a></li>
+ </ul>
+</ol>
 By studying these concepts and utilizing the resources provided, you will be equipped with the knowledge required to implement an efficient solution to the N queens problem using Python. This project not only tests programming and problem-solving skills but also offers an excellent opportunity to learn about algorithmic thinking and optimization techniques.
 
-Additional Resources
-Mock Interview
-Requirements
-General
+### Additional Resources
+
+<li><a href="https://www.youtube.com/watch?feature=shared&v=GneS80iYa7I">Mock Interview</a></li>
+
+#### Requirements
+##### General
+
 Allowed editors: vi, vim, emacs
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.4.3)
 All your files should end with a new line
@@ -36,7 +47,9 @@ The first line of all your files should be exactly #!/usr/bin/python3
 A README.md file, at the root of the folder of the project, is mandatory
 Your code should use the PEP 8 style (version 1.7.*)
 All your files must be executable
-Tasks
+
+#### Tasks
+
 0. N queens
 mandatory
 
@@ -55,7 +68,9 @@ One solution per line
 Format: see example
 You don’t have to print the solutions in a specific order
 You are only allowed to import the sys module
-Read: Queen, Backtracking
+
+Read:
+<a href="https://en.wikipedia.org/wiki/Queen_%28chess%29">Queen</a>, <a href="https://en.wikipedia.org/wiki/Backtracking">Backtracking</a>
 
 julien@ubuntu:~/0x08. N Queens$ ./0-nqueens.py 4
 [[0, 1], [1, 3], [2, 0], [3, 2]]
