@@ -2,18 +2,21 @@
 """"""
 import sys
 
+
 def print_board(board):
     """prints the board"""
     print([[i, j] for i, j in enumerate(board)])
+
 
 def is_safe(board, row, col):
     """Checks if a position is safe"""
     for i in range(col):
         if board[i] == row or \
             board[i] - i == row - col or \
-            board[i] + i == row + col:
+                board[i] + i == row + col:
             return False
     return True
+
 
 def solve_nqueens(board, col):
     """Solves the N queens problem"""
@@ -26,6 +29,7 @@ def solve_nqueens(board, col):
         if is_safe(board, i, col):
             board[col] = i
             solve_nqueens(board, col + 1)
+
 
 def check_args():
     """Checks the arguments"""
@@ -40,6 +44,7 @@ def check_args():
         print("N must be at least 4")
         sys.exit(1)
     return N
+
 
 def main():
     """Main function"""
