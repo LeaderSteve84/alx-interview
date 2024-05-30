@@ -30,17 +30,17 @@ Modifying elements within nested loops to achieve the desired rotation.
 <ul>
 <li>Python Official Documentation:</li>
  <ul>
-  <li>Data Structures (list comprehensions, nested list comprehension)</li>
-  <li>More on Lists</li>
+  <li><a href="https://docs.python.org/3/tutorial/datastructures.html">Data Structures (list comprehensions, nested list comprehension)</a></li>
+  <li><a href="https://docs.python.org/3/tutorial/datastructures.html#more-on-lists">More on Lists</a></li>
  </ul>
-<li>GeeksforGeeks Articles:</li>
+<li>GeeksforGeeks Articles:</a></li>
  <ul>
-  <li>Inplace rotate square matrix by 90 degrees</li>
-  <li>Transpose a matrix in Single line in Python</li>
+  <li><a href="https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/">Inplace rotate square matrix by 90 degrees</a></li>
+  <li><a href="https://www.geeksforgeeks.org/transpose-matrix-single-line-python/">Transpose a matrix in Single line in Python</a></li>
  </ul>
 <li>TutorialsPoint:</li>
  <ul>
-  <li>Python Lists for basics of list manipulation in Python.</a></li>
+  <li><a href="https://www.tutorialspoint.com/python/python_lists.htm">Python Lists</a> for basics of list manipulation in Python.</li>
  </ul>
 </ul>
 By understanding these concepts and utilizing the provided resources, you will be able to approach the problem methodically, first transposing the matrix and then reversing each row to achieve a 90-degree clockwise rotation. This project not only tests your ability to manipulate 2D matrices but also challenges you to think about optimizing your solution to operate in-place, thus improving their problem-solving and algorithmic thinking skills in Python.
