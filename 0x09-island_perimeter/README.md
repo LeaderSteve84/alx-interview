@@ -24,19 +24,25 @@ Python Programming:
 
 Nested loops for iterating over grid cells.
 Conditional statements to check the status of adjacent cells.
-Resources:
-Python Official Documentation:
-
-Nested Lists: Understanding how to work with lists within lists in Python.
-GeeksforGeeks Articles:
-
-Python Multi-dimensional Arrays: A guide to working with 2D arrays in Python effectively.
-TutorialsPoint:
-
-Python Lists: Explains how to create, access, and manipulate lists in Python, which is essential for working with a grid.
-YouTube Tutorials:
-
-Python 2D arrays and lists
+## Resources:
+<ul>
+<li>Python Official Documentation:</li>
+<ul>
+<li><a href="https://docs.python.org/3/tutorial/datastructures.html#nested-list-comprehensions">Nested Lists:</a> Understanding how to work with lists within lists in Python.</li>
+</ul>
+<li>GeeksforGeeks Articles:</li>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/python-using-2d-arrays-lists-the-right-way/">Python Multi-dimensional Arrays:</a> A guide to working with 2D arrays in Python effectively.</li>
+</ul>
+<li>TutorialsPoint:</li>
+<ul>
+<li><a href="https://www.tutorialspoint.com/nodejs/index.htm">Python Lists:</a> Explains how to create, access, and manipulate lists in Python, which is essential for working with a grid.</li>
+</ul>
+<li>YouTube Tutorials:</li>
+<ul>
+<li><a href="">Python 2D arrays and lists</a></li>
+</ul>
+</ul>
 By understanding these concepts and utilizing the provided resources, you will be equipped to approach the problem methodically. You’ll need to iterate over the grid, apply logical operations to identify the perimeter of the island, and account for the specific conditions described in the task. This project not only tests your algorithmic thinking but also reinforces your ability to manipulate data structures and apply logical reasoning to solve problems.
 
 ### Additional Resources
