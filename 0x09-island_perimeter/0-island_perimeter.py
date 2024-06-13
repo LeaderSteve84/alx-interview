@@ -3,6 +3,10 @@
 
 
 def island_perimeter(grid):
+    """ returns the perimeter of the island described in grid:
+        Args:
+            grid  (list): list of list of integers
+    """
     if not grid or not grid[0]:
         return 0
 
